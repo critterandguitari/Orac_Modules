@@ -1,0 +1,17 @@
+{
+    "name" : "F-constant-g",
+    "display" : "Constant Gardener",
+    "parameters" :  [ 
+        ["pct","cg_speed","Speed", 0,100,100],
+        ["pitch","cg_tune","Tune",-12,12,0],
+        ["pct","cg_dw","Dry/Wet",0,100,50]
+	
+
+
+    ],
+    "pages" : [ 
+        ["pg_main","Main", ["cg_speed","cg_tune","cg_dw"]]
+	
+    ]
+}
+
