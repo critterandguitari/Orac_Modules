@@ -1,0 +1,13 @@
+{
+    "display" : "Arp Seq",
+    "parameters" :  [ 
+        ["int","arpseq_pattern","Pattern",0,7,0],
+        ["time","arpseq_length","Length",20,2000,500],
+        ["pct","arpseq_swing","Swing",0,100,0],
+        ["int","arpseq_beat","Beat Div.",1,5,4]
+    ],
+    "pages" : [ 
+        ["pg_main","Main",["arpseq_beat","arpseq_swing","arpseq_pattern","arpseq_length"]]
+    ]
+}
+

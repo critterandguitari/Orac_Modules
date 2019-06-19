@@ -1,0 +1,3 @@
+state 0;
+clock 180;
+note 73;

@@ -1,0 +1,11 @@
+{
+    "display" : "Click",
+    "parameters" :  [ 
+        ["pct","metro_level","Level",0,200,100],
+        ["pct","metro_tone","Tone",0,100,50]
+    ],
+    "pages" : [ 
+        ["pg_main","Main",["metro_level","metro_tone"]]
+    ]
+}
+

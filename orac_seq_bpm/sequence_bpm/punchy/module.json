@@ -1,0 +1,13 @@
+{
+    "display" : "Punchy",
+    "parameters" :  [ 
+        ["int","punchy_beat","Beat Div.",1,5,4],
+        ["pct","punchy_swing","Swing",0,100,0],
+        ["time","punchy_length","Length",1,1000,100],
+        ["int","punchy_velo","Note Vel",0,127,100]
+     ],
+    "pages" : [ 
+        ["pg_main","Main",["punchy_beat","punchy_swing","punchy_length","punchy_velo"]]
+    ]
+}
+

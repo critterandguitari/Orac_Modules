@@ -1,0 +1,11 @@
+{
+    "display" : "pinkMode",
+    "parameters" :  [
+        ["time","looplength","Loop Length",1,16,1],
+        ["time","notelength","Note Length",10,1000,100]
+    ],
+    "pages" : [
+	["graphics","Graphic",[]]
+    ]
+}
+

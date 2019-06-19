@@ -1,0 +1,10 @@
+{
+    "display" : "Seq",
+    "parameters" :  [ 
+        ["int","seq_speed_factor","Speed",1,4,1]
+    ],
+    "pages" : [ 
+        ["pg_main","Main",["seq_speed_factor"]]
+    ]
+}
+
