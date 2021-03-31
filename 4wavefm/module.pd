@@ -32,7 +32,7 @@
 #X obj 180 182 t f f;
 #X obj 180 253 pack 0 0;
 #X msg 180 301 \$1 ../../waveforms/wave\$2.wav;
-#X obj 180 338 clone -s 1 4 cg-waveform-load wave\$1;
+#X obj 180 339 clone -s 1 4 cg-waveform-load wave\$1;
 #X obj 180 36 r load-the-wavetables-\$1;
 #X msg 237 226 1;
 #X connect 0 0 9 0;
